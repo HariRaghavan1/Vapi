@@ -334,7 +334,7 @@ import json
 import re
 from math import factorial
 from vapi_python import Vapi
-vapi = Vapi(api_key='6ed49c62-97a4-41ba-ae7e-01f17ba0ce0f')
+vapi = Vapi('insert API Key')
 
 
 client = OpenAI()

@@ -27,7 +27,7 @@ document.querySelector('#app').innerHTML = `
 setupCounter(document.querySelector('#counter'));
 
 // Initialize Vapi
-const vapi = new Vapi('6ed49c62-97a4-41ba-ae7e-01f17ba0ce0f');
+const vapi = new Vapi('Your API key');
 vapi.start({
   model: {
     provider: "openai",
